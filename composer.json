@@ -1,0 +1,28 @@
+{
+    "name": "elephantsgroup/eg-yii2-slideshow",
+    "description": "Yii2 wrapper for some javascript slideshow libraries",
+    "keywords": ["yii", "yii2", "extension", "slideshow", "elephantsGroup"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jalal Jaberi",
+            "email": "j_jaberi@yahoo.com"
+        },
+        {
+            "name": "Arezou Zahedi Majd",
+            "email": "a_majd_8@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "config": {
+        "process-timeout": 1500,
+        "secure-http": false
+    },
+    "autoload": {
+        "psr-4": { "elephantsGroup\\slideshow\\": "" }
+    }
+}
